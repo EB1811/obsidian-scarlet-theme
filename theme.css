@@ -1,3 +1,108 @@
+/* Cyberpunk Scarlet Theme for Obsidian */
+/* Colors:
+   Primary:    #ea3355 - Scarlet Red
+   Background: #101116 - Deep Space
+   Editor:     #161620 - Midnight Blue
+   Text:       #c7c7c7 - Silver
+   Accent:     #d13454 - Crimson
+*/
+
+.theme-dark {
+	--color-base-00: #101116;
+	--color-base-05: #13141a;
+	--color-base-10: #161620;
+	--color-base-20: #1c1c28;
+	--color-base-25: #202030;
+	--color-base-30: #2a2a3a;
+	--color-base-35: #323244;
+	--color-base-40: #3c3c50;
+	--color-base-50: #505068;
+	--color-base-60: #6e6e88;
+	--color-base-70: #8e8ea8;
+	--color-base-100: #c7c7c7;
+
+	--color-accent-hsl: 350, 79%, 56%;
+	--color-accent: #ea3355;
+	--color-accent-1: #d13454;
+	--color-accent-2: #f04d6a;
+
+	--background-primary: #161620;
+	--background-primary-alt: #1c1c28;
+	--background-secondary: #101116;
+	--background-secondary-alt: #13141a;
+	--background-modifier-border: #2a2a3a;
+	--background-modifier-form-field: #1c1c28;
+	--background-modifier-box-shadow: rgba(0, 0, 0, 0.5);
+	--background-modifier-success: #1a3a2a;
+	--background-modifier-error: #3a1a20;
+	--background-modifier-error-rgb: 58, 26, 32;
+	--background-modifier-cover: rgba(16, 17, 22, 0.8);
+
+	--text-normal: #c7c7c7;
+	--text-muted: #8e8ea8;
+	--text-faint: #6e6e88;
+	--text-on-accent: #ffffff;
+	--text-error: #ea3355;
+	--text-warning: #e8a838;
+	--text-success: #4caf82;
+	--text-selection: rgba(234, 51, 85, 0.25);
+	--text-highlight-bg: rgba(234, 51, 85, 0.2);
+	--text-accent: #ea3355;
+	--text-accent-hover: #d13454;
+
+	--interactive-normal: #1c1c28;
+	--interactive-hover: #2a2a3a;
+	--interactive-accent: #ea3355;
+	--interactive-accent-hsl: 350, 79%, 56%;
+	--interactive-accent-hover: #d13454;
+	--interactive-success: #4caf82;
+
+	--scrollbar-active-thumb-bg: rgba(234, 51, 85, 0.4);
+	--scrollbar-bg: rgba(16, 17, 22, 0.3);
+	--scrollbar-thumb-bg: rgba(80, 80, 104, 0.4);
+
+	--link-color: #ea3355;
+	--link-color-hover: #f04d6a;
+	--link-unresolved-color: #8e8ea8;
+	--link-unresolved-opacity: 0.7;
+	--link-unresolved-decoration-color: rgba(142, 142, 168, 0.4);
+
+	--tag-color: #ea3355;
+	--tag-background: rgba(234, 51, 85, 0.15);
+	--tag-background-hover: rgba(234, 51, 85, 0.25);
+
+	--bold-color: #ea3355;
+	--italic-color: #c7c7c7;
+
+	--h1-color: #ea3355;
+	--h2-color: #d13454;
+	--h3-color: #c7c7c7;
+	--h4-color: #c7c7c7;
+	--h5-color: #8e8ea8;
+	--h6-color: #6e6e88;
+
+	--code-normal: #c7c7c7;
+	--code-background: #13141a;
+	--code-comment: #6e6e88;
+	--code-function: #ea3355;
+	--code-important: #d13454;
+	--code-keyword: #ea3355;
+	--code-operator: #c7c7c7;
+	--code-property: #f04d6a;
+	--code-punctuation: #8e8ea8;
+	--code-string: #e8a838;
+	--code-tag: #d13454;
+	--code-value: #c7c7c7;
+
+	--table-border-color: #2a2a3a;
+	--table-header-background: #1c1c28;
+	--table-header-background-hover: #2a2a3a;
+	--flashing-background: rgba(234, 51, 85, 0.2);
+
+	--indentation-guide-color: rgba(80, 80, 104, 0.3);
+	--indentation-guide-color-active: rgba(234, 51, 85, 0.5);
+}
+
 body {
 	--radius-s: 0px;
 	--radius-m: 0px;
@@ -32,3 +137,4 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
+
